@@ -6,6 +6,8 @@ services:
         depends_on:
             - py_back
         image: unity-webgl-demo
+        volumes:
+            - ./SNA_front/WebGL/WebGL/:/webgl
         build: .
         ports:
             - "5000:5000"
