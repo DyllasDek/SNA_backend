@@ -8,10 +8,9 @@ services:
         image: unity-webgl-demo
         volumes:
             - ./SNA_front/WebGL/WebGL/:/webgl
-            - ../https/:/etc/nginx/ssl/
         build: ./Server
         ports:
-            - "5000:5000"
+            - "80:80"
         stdin_open: true
         tty: true
     mongo:

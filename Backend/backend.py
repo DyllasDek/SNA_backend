@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 import pymongo
 
+
 client = pymongo.MongoClient('mongodb://pl:pl@mongo_db:27017/game')
 db = client['game']['score']
 
