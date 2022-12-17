@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
 WORKDIR /etc/nginx/conf.d
-COPY Server/webgl.conf default.conf
+COPY webgl.conf default.conf
 
 
