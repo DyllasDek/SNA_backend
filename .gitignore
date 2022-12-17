@@ -1,0 +1,5 @@
+# Exclude SNA_front, this is another git repo
+SNA_front/
+
+#Exclude DB folder
+DB/
