@@ -8,7 +8,7 @@ services:
         image: unity-webgl-demo
         volumes:
             - ./SNA_front/WebGL/WebGL/:/webgl
-        build: ./Server
+        build: ./WebServer
         ports:
             - "80:80"
         stdin_open: true
